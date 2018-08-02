@@ -43,25 +43,7 @@ def l1ll1l11l_opy_ (str):
 		sys.stdout.write(a)
 		time.sleep((random.randint(1,3)/100.0))
 clear()
-l1l11ll11_opy_(l11ll_opy_ (u"ࠢࡉࡧ࡯ࡰࡴ࠲ࠠࡧࡴ࡬ࡩࡳࡪ࠮ࠣࡳ"))
 time.sleep(4)
-clear()
-while 1:
-	l1l11ll11_opy_(l11ll_opy_ (u"࡙ࠣࡲࡹࡱࡪࠠࡺࡱࡸࠤࡱ࡯࡫ࡦࠢࡷࡳࠥࡶ࡬ࡢࡻࠣࡥࠥ࡭ࡡ࡮ࡧࡂࠤࠧࡴ"))
-	l1l1l11l1_opy_ = raw_input()
-	if (l11ll_opy_ (u"ࠤࡼࡩࡸࠨࡵ") in l1l1l11l1_opy_) or (l11ll_opy_ (u"ࠥ࡝ࡪࡹࠢࡶ") in l1l1l11l1_opy_) or (l11ll_opy_ (u"ࠦࡾࠨࡷ") in l1l1l11l1_opy_) or (l11ll_opy_ (u"ࠧ࡟ࠢࡸ") in l1l1l11l1_opy_):
-		clear()
-		break
-	elif (((l11ll_opy_ (u"ࠨ࡮ࡰࠤࡹ") in l1l1l11l1_opy_)) or ((l11ll_opy_ (u"ࠢࡏࡱࠥࡺ") in l1l1l11l1_opy_)) or (l11ll_opy_ (u"ࠣࡰࠥࡻ") in l1l1l11l1_opy_) or (l11ll_opy_ (u"ࠤࡑࠦࡼ") in l1l1l11l1_opy_)):
-		clear()
-		l1l11ll11_opy_(l11ll_opy_ (u"ࠥࡒࡴࡅࠠࡃࡷࡷࠤࡼ࡫ࠧࡳࡧࠣࡨࡪࡶࡥ࡯ࡦ࡬ࡲ࡬ࠦ࡯࡯ࠢࡼࡳࡺ࠴࠮ࠣࡽ"))
-		time.sleep(2)
-		clear()
-	else:
-		clear()
-		l1l11ll11_opy_(l11ll_opy_ (u"ࠦࡎࠦࡤࡪࡦࡱࠫࡹࠦࡨࡦࡣࡵࠤࡾࡵࡵࠡࡶ࡫ࡥࡹࠦࡴࡪ࡯ࡨ࠲࠳ࠨࡾ"))
-		time.sleep(2)
-		clear()
 l1l11ll11_opy_(l11ll_opy_ (u"ࠧ࡝ࡨࡢࡶࠣ࡭ࡸࠦࡹࡰࡷࡵࠤࡳࡧ࡭ࡦ࠮ࠣ࡬ࡪࡸ࡯ࡀࠢࠥࡿ"))
 l1l1l1ll1_opy_ = raw_input()
 clear()
