@@ -5,7 +5,8 @@ from datetime import datetime
 import os 
 
 def clear (): 
-	os.system('clear') 
+	os.system('clear') #This is the *nix clear command. Comment out this line if you're on Windows
+	os.system('cls') #This is the Windows clear command. Comment out this line if you're on *nix.
 	return;
 
 def typer (str):  
@@ -32,28 +33,7 @@ def speedmachinetyper (str):
 		time.sleep((random.randint(1,3)/100.0))
 
 clear()
-typer("Hello, friend.")
 time.sleep(4)
-clear()
-
-while 1:
-	typer("Would you like to play a game? ")
-	playgameanswer = raw_input() 
-
-	if ("yes" in playgameanswer) or ("Yes" in playgameanswer) or ("y" in playgameanswer) or ("Y" in playgameanswer):
-		clear()
-		break
-	elif ((("no" in playgameanswer)) or (("No" in playgameanswer)) or ("n" in playgameanswer) or ("N" in playgameanswer)):
-		clear()
-		typer("No? But we're depending on you..")
-		time.sleep(2)
-		clear()
-	else:
-		clear()
-		typer("I didn't hear you that time..")
-		time.sleep(2)
-		clear()
-
 typer("What is your name, hero? ")
 playername = raw_input() 
 clear()
