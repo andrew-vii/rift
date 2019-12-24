@@ -6,6 +6,6 @@ There are two versions of the game: obfuscated and unobfuscated. I've included t
 
 To run the game, open up a Terminal/Command Prompt window and 'cd' to the directory where the downloaded folder is.
 
-Reference for installing python on Windows, OXS, and Linux: https://learnpythonthehardway.org/book/ex0.html 
+Reference for installing python on Windows, OSX, and Linux: https://learnpythonthehardway.org/book/ex0.html 
 
 
