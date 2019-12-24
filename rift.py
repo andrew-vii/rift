@@ -1,42 +1,45 @@
+#!/usr/bin/python3
 import time
 import random
 import sys
 from datetime import datetime 
 import os 
 
+
 def clear (): 
 	os.system('clear') #This is the *nix clear command. Comment out this line if you're on Windows
-	os.system('cls') #This is the Windows clear command. Comment out this line if you're on *nix.
+	#os.system('cls') #This is the Windows clear command. Comment out this line if you're on *nix.
 	return
 
-def typer (str):  
+def typer (str):
 	for a in str:
-		sys.stdout.write(a)
+		print(a, end = '', flush=True)
+		#sys.stdout.write(a)
 		time.sleep((random.randint(4,15)/100.0))
 	return
 
 def speedtyper (str): 
 	for a in str:
-		sys.stdout.write(a)
+		print(a, end = '', flush=True)
 		time.sleep((random.randint(3,13)/100.0))
-	return;
+	return
 
 def machinetyper (str): 
 	for a in str:
-		sys.stdout.write(a)
+		print(a, end = '', flush=True)
 		time.sleep((random.randint(2,10)/100.0))
 	return
 
 def speedmachinetyper (str): 
 	for a in str:
-		sys.stdout.write(a)
+		print(a, end = '', flush=True)
 		time.sleep((random.randint(1,3)/100.0))
 	return
 
 clear()
 time.sleep(4)
 typer("What is your name, hero? ")
-playername = raw_input() 
+playername = input() 
 clear()
 
 time.sleep(1)
@@ -77,7 +80,7 @@ speedtyper("  A login prompt.")
 time.sleep(1)
 speedtyper("  It asks for a key.")
 time.sleep(2)
-speedtyper("  Just a simple md5 hash of the first 7 digits of pi.  You cracked this one weeks ago.  Easy sauce.")
+speedtyper("  Just a simple md5 hash of the first 7 digits of pi.  You cracked this one weeks ago..")
 
 time.sleep(3)
 sys.stdout.write("\n\n\n--------------------------------------------------------------------------------")
@@ -86,7 +89,7 @@ speedtyper("\n\n\n\n")
 while 1:
 	sys.stdout.write("\n\n\nDataplane TERM-03A51")
 	sys.stdout.write("\nLOGIN\n\n")
-	firstlevelpass = raw_input("\nTransfer Identifier String: ")
+	firstlevelpass = input("\nTransfer Identifier String: ")
 
 	speedtyper("\n\nAuthenticating Identifier String...")
 	time.sleep(1)
@@ -126,7 +129,7 @@ speedtyper("  To make sure that you knew you were probably lost.")
 time.sleep(3)
 speedtyper("\n\nThey're ancient tech.  Oudated.")
 time.sleep(1)
-speedtyper("  Injecting a B00lean response would probably be enough to let you pass...")
+speedtyper("  Injecting a Boolean response would probably be enough to let you pass...")
 time.sleep(3)
 
 sys.stdout.write("\n\n\n")
@@ -147,7 +150,7 @@ speedtyper("\n\n\nOUTPUT ERROR CASE 203F: USER AGENT IDENTIFIER NOT FOUND")
 time.sleep(2)
 while 1:
 	speedtyper("\n\nPROVIDE USER AGENT IDENTIFIER:\n::")
-	useragentanswer = raw_input()
+	useragentanswer = input()
 	if ( ( "OR 1=1" in useragentanswer ) or ( "or 1=1" in useragentanswer ) or ( "or 1 = 1" in useragentanswer ) or ( " OR 1 = 1" in useragentanswer ) or ( " OR 0 = 0" in useragentanswer ) or ( " or 0 = 0" in useragentanswer ) or ( " OR 0=0" in useragentanswer ) or ( " or 0=0" in useragentanswer ) ):
 		time.sleep(1)
 		speedtyper("\n\nPROCESSING USER INPUT...")
@@ -217,7 +220,7 @@ while 1:
 	machinetyper("\n\nChallenge Sent.")
 	time.sleep(1)
 	machinetyper("\nAuth Response:\n::")
-	userauthinput=raw_input()
+	userauthinput=input()
 
 	if "e369853df766fa44e1ed0ff613f563bd" in userauthinput: 
 		time.sleep(1)
@@ -264,7 +267,7 @@ while 1:
 	speedmachinetyper("  4348414c4c454e47453a2032203320352037203131203137203139") 
 	speedmachinetyper("  \n\n524553504f4e53453a:\n::") 
 
-	hexresponse = raw_input()
+	hexresponse = input()
 
 	if ( ( "3133" in hexresponse ) or ( "31 33" in hexresponse ) ):
 		time.sleep(2)
@@ -291,7 +294,7 @@ time.sleep(2)
 speedtyper("\n\nLines of red characters on the smoky glass surface.")
 time.sleep(3)
 
-		   
+
 sys.stdout.write("\n\n\n")
 
 for num in range(1,30):
@@ -331,7 +334,7 @@ while 1:
 		
 	sys.stdout.write("\n\n")
 	machinetyper("User Input:\n::")
-	randinput = raw_input()
+	randinput = input()
 	viocount = str(violationcount)
 	
 	if randinput in randanswer:
@@ -417,9 +420,9 @@ speedtyper("  No thunder follows.")
 time.sleep(2)
 speedtyper("\n\nBefore the column, a pair of old terminals.")
 time.sleep(1)
-speedtyper("  Artifacts of the physical in the world of the d1g1tal.")
-	
-		   
+speedtyper("  Artifacts of the physical in the world of the digital.")
+
+
 sys.stdout.write("\n\n\n\n")
 
 levelsevenfirstaccess = 0
@@ -432,7 +435,7 @@ while 1:
 	time.sleep(2)
 	sys.stdout.write("\n\n\n\n")
 	machinetyper("Do you approach the left terminal, or the right terminal? ")
-	termchoice = raw_input()
+	termchoice = input()
 	
 	if ( ( "left" in termchoice ) or ( "l" in termchoice ) or ("Left" in termchoice) ):
 		machinetyper("\n\n\nYou approach the left terminal and press the power key...")
@@ -453,12 +456,12 @@ while 1:
 			time.sleep(3)
 			machinetyper("\n\n\n\nEnter Desired Action:")
 			sys.stdout.write("\n\nLOGIN or EXIT\n::")
-			leftermaction = raw_input()
+			leftermaction = input()
 			if ( ("LOGIN" in leftermaction) or ("Login" in leftermaction) or ("login" in leftermaction) ):
 				machinetyper("\n\n\nPlease Select Login Account: ")
 				time.sleep(1)
 				sys.stdout.write("\n\nInet Admin\nelliot\nstorm\nR\nGuest\n\nEXIT\n\n\n::")
-				leftermuserlogin = raw_input()
+				leftermuserlogin = input()
 				
 				if ( ("EXIT" in leftermuserlogin ) or ("Exit" in leftermuserlogin) or ("exit" in leftermuserlogin) ):
 					break 
@@ -466,7 +469,7 @@ while 1:
 				machinetyper("\n\nEnter password for ")
 				machinetyper(leftermuserlogin)
 				machinetyper(": \n\n::")
-				lefttermuserpass = raw_input()
+				lefttermuserpass = input()
 				if ( ("GUEST" in leftermuserlogin ) or ("Guest" in leftermuserlogin) or ("guest" in leftermuserlogin ) ):
 					if ("password" in lefttermuserpass ):
 						time.sleep(2)
@@ -480,7 +483,7 @@ while 1:
 						while 1: 						
 							sys.stdout.write("\n\n")
 							sys.stdout.write(levelsixcmdprompt)
-							levelsixpromptcommand = raw_input()
+							levelsixpromptcommand = input()
 							
 							if ( ("help" in levelsixpromptcommand) ):
 								sys.stdout.write("\n\nAvailable Commands:\n\nhelp - Shows this menu \nls - Lists contents of directory \ncd <directoryname> - Changes working directory \npar - Moves to parent directory \ncat <filename> - Displays contents of file \nexit - Logout of session")
@@ -606,16 +609,16 @@ while 1:
 						if (levelsevenfirstaccess == 0): 
 							levelsevenfirstaccess = 1
 							clear()
-		   					time.sleep(2)
-		   					speedtyper("Simple mistakes make small flaws in big systems.")
-		   					time.sleep(2)
-		   					speedtyper("\n\nBefore you, the data column pulses brightly.")
-		   					time.sleep(1)
-		   					speedtyper("  Around you, the horizon glows red.")
-		   					time.sleep(2)
-		   					speedtyper("\n\nVisions of terror burn in your peripherals.")
-		   					time.sleep(4)
-		   					clear()
+							time.sleep(2)
+							speedtyper("Simple mistakes make small flaws in big systems.")
+							time.sleep(2)
+							speedtyper("\n\nBefore you, the data column pulses brightly.")
+							time.sleep(1)
+							speedtyper("  Around you, the horizon glows red.")
+							time.sleep(2)
+							speedtyper("\n\nVisions of terror burn in your peripherals.")
+							time.sleep(4)
+							clear()
 							
 					
 						time.sleep(2)
@@ -628,7 +631,7 @@ while 1:
 						while 1: 					
 							sys.stdout.write("\n\n")
 							sys.stdout.write(levelsevencmdprompt)
-							levelsevenpromptcommand = raw_input()
+							levelsevenpromptcommand = input()
 							if ( ("help" in levelsevenpromptcommand) ):
 								sys.stdout.write("\n\nAvailable Commands:\n\nhelp - Shows this menu \nls - Lists contents of directory \ncd <directoryname> - Changes working directory \npar - Moves to parent directory \ncat <filename> - Displays contents of file \nexit - Logout of session")
 							
@@ -980,14 +983,14 @@ while 1:
 			time.sleep(3)
 			machinetyper("\n\n\n\nSelect Action:")
 			sys.stdout.write("\n\nLOGIN or EXIT\n\n::")
-			rightermaction = raw_input()
+			rightermaction = input()
 			if ( ("LOGIN" in rightermaction) or ("Login" in rightermaction) or ("login" in rightermaction) ):
 				machinetyper("\n\n\nPlease Select Login Account: ")
 				sys.stdout.write("\n\nSorrento\n\nRoot\n\n\n::")
-				rightermuserlogin = raw_input()
+				rightermuserlogin = input()
 				if (("root" in rightermuserlogin) or ("Root" in rightermuserlogin)):
 					machinetyper("\n\nEnter password for Root:\n\n::")
-					righttermuserpass = raw_input()
+					righttermuserpass = input()
 					
 					if ("starlight" in righttermuserpass):
 					
@@ -998,20 +1001,20 @@ while 1:
 							clear()
 							time.sleep(2)
 							speedtyper("Root.")
-		   					time.sleep(2)
-							speedtyper("  A system artifact.  The first account, installed by the OS itself.")
-		   					time.sleep(1)
-		   					speedtyper("  Access to everything.")
 							time.sleep(2)
-		   					speedtyper("\n\nOutside, the world is distant.")
-		   					time.sleep(1)
-		   					speedtyper("  The lingering sense of physicality, vanished.")
-		   					time.sleep(2)
-		   					speedtyper("\n\nThere was just the prompt.")
-		   					time.sleep(4)
-		   					levelninefirstaccess = 1
-		   					clear()
-		   					time.sleep(2)
+							speedtyper("  A system artifact.  The first account, installed by the OS itself.")
+							time.sleep(1)
+							speedtyper("  Access to everything.")
+							time.sleep(2)
+							speedtyper("\n\nOutside, the world is distant.")
+							time.sleep(1)
+							speedtyper("  The lingering sense of physicality, vanished.")
+							time.sleep(2)
+							speedtyper("\n\nThere was just the prompt.")
+							time.sleep(4)
+							levelninefirstaccess = 1
+							clear()
+							time.sleep(2)
 							
 						machinetyper("\n\nInitiating ROOT Shell...")
 						time.sleep(2) 
@@ -1022,7 +1025,7 @@ while 1:
 						while 1: 					
 							sys.stdout.write("\n\n")
 							sys.stdout.write(levelninecmdprompt)
-							levelninepromptcommand = raw_input()
+							levelninepromptcommand = input()
 							if ( ("help" in levelninepromptcommand) ):
 								sys.stdout.write("\n\nAvailable Commands:\n\nhelp - Shows this menu \nls - Lists contents of directory \ncd <directoryname> - Changes working directory \npar - Moves to parent directory \ncat <filename> - Displays contents of file \nexec <filename> - Executes file\nexit - Logout of session")
 							
@@ -1157,15 +1160,15 @@ while 1:
 										time.sleep(1)
 										
 										sys.stdout.write("\n\n\nCOPPER: ")
-										firstauthcheck = raw_input()
+										firstauthcheck = input()
 										if ("monster" in firstauthcheck):
 											time.sleep(2)
 											sys.stdout.write("\n\nJADE: ")
-											secondauthcheck = raw_input()
+											secondauthcheck = input()
 											if ("ricochet" in secondauthcheck):
 												time.sleep(2)
 												sys.stdout.write("\n\nCRYSTAL: ")
-												thirdauthcheck = raw_input()
+												thirdauthcheck = input()
 												if ("carnivore" in thirdauthcheck):
 													time.sleep(2)
 													clear()
@@ -1205,7 +1208,7 @@ while 1:
 				
 				if (("Sorrento" in rightermuserlogin) or ( "sorrento" in rightermuserlogin )):
 					machinetyper("\n\nEnter password for Sorrento: \n\n::")
-					righttermuserpass = raw_input()
+					righttermuserpass = input()
 					
 					if (("adell" in righttermuserpass) or ("Adell" in righttermuserpass)):
 						#BEGINNING OF LEVEL EIGHT
@@ -1219,15 +1222,15 @@ while 1:
 							clear()
 							time.sleep(2)
 							speedtyper("Access.")
-		   					time.sleep(1)
-		   					speedtyper("  A sense of detachment, adopting another persona.")
-		   					time.sleep(2)
-		   					speedtyper("\n\nA way of thinking.  Of finding meaning in the uncertainty.")
-		   					time.sleep(2)
-		   					speedtyper("\n\nThe rush of a d1g1tal buzz in your fingertips.")
 							time.sleep(1)
-		   					speedtyper("  It draws you closer to the screen, and deeper into the maze.")
-		   					time.sleep(3)
+							speedtyper("  A sense of detachment, adopting another persona.")
+							time.sleep(2)
+							speedtyper("\n\nA way of thinking.  Of finding meaning in the uncertainty.")
+							time.sleep(2)
+							speedtyper("\n\nThe rush of a digital buzz in your fingertips.")
+							time.sleep(1)
+							speedtyper("  It draws you closer to the screen, and deeper into the maze.")
+							time.sleep(3)
 							leveleightfirstaccess = 1
 							clear()
 						machinetyper("\n\nInitiating Session Shell...")
@@ -1238,7 +1241,7 @@ while 1:
 						while 1: 					
 							sys.stdout.write("\n\n")
 							sys.stdout.write(leveleightcmdprompt)
-							leveleightpromptcommand = raw_input()
+							leveleightpromptcommand = input()
 							if ( ("help" in leveleightpromptcommand) ):
 								sys.stdout.write("\n\nAvailable Commands:\n\nhelp - Shows this menu \nls - Lists contents of directory \ncd <directoryname> - Changes working directory \npar - Moves to parent directory \ncat <filename> - Displays contents of file \nexec <filename> - Executes file\nexit - Logout of session")
 							
