@@ -7,13 +7,13 @@ import os
 def clear (): 
 	os.system('clear') #This is the *nix clear command. Comment out this line if you're on Windows
 	os.system('cls') #This is the Windows clear command. Comment out this line if you're on *nix.
-	return;
+	return
 
 def typer (str):  
 	for a in str:
 		sys.stdout.write(a)
 		time.sleep((random.randint(4,15)/100.0))
-	return;
+	return
 
 def speedtyper (str): 
 	for a in str:
@@ -25,12 +25,13 @@ def machinetyper (str):
 	for a in str:
 		sys.stdout.write(a)
 		time.sleep((random.randint(2,10)/100.0))
-	return;
+	return
 
 def speedmachinetyper (str): 
 	for a in str:
 		sys.stdout.write(a)
 		time.sleep((random.randint(1,3)/100.0))
+	return
 
 clear()
 time.sleep(4)
