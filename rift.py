@@ -66,7 +66,7 @@ for num in range(1,300):
 clear()
 
 time.sleep(2)
-speedtyper("Around you, a shifting world.")
+speedtyper("\n\nAround you, a shifting world.")
 time.sleep(2)
 speedtyper("  Moving, unfolding, expanding.")
 time.sleep(3)
