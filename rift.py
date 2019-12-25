@@ -113,7 +113,7 @@ for num in range(1,300):
 	time.sleep(.015)
 clear()
 time.sleep(2)
-speedtyper("The world expands, then contracts.")
+speedtyper("\n\nThe world expands, then contracts.")
 time.sleep(1)
 speedtyper("  A rush of cold and light.")
 time.sleep(2)
